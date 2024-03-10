@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  height: 60px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-right: auto;
+  margin-left: 150px;
+  min-width: fit-content;
+}
+
+.header {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-right: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
