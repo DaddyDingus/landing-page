@@ -29,6 +29,13 @@ h2 {
   color: #f9faf8;
 }
 
+h3 {
+  font-size: 36px;
+  font-weight: 900px;
+  color: #1f2937;
+  margin-top: 50px;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -45,7 +52,7 @@ a {
 
 .section-1-container {
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #1f2937;
@@ -53,6 +60,7 @@ a {
 
 .section-1-left {
   display: flex;
+  flex-wrap: wrap;
   min-width: 400px;
   max-width: 400px;
   flex-direction: column;
@@ -84,4 +92,77 @@ a {
   border-radius: 5px;
   border: none;
   margin-right: auto;
+  cursor: pointer;
+}
+
+.button-1:hover {
+  background-color: rgb(255, 0, 43);
+}
+
+.section-2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.emu,
+.kookaburra,
+.kangaroo,
+.echidna {
+  height: 170px;
+  border-radius: 12px;
+  border: solid 3px #3882f6;
+  width: fit-content;
+}
+
+.section-2-images {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.emu-container,
+.kookaburra-container,
+.kangaroo-container,
+.echidna-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 170px;
+  text-align: center;
+  gap: 5px;
+  color: rgba(0, 0, 0, 0.645);
+}
+
+.section-3-container {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote-container {
+  display: flex;
+  max-width: 850px;
+  flex-direction: column;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 1;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.santa {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 25px;
+  font-size: 27px;
+  font-weight: bold;
 }
